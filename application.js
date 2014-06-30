@@ -14,6 +14,12 @@ $(document).ready(function(){
 	$('.crystal-brawl').click(function(){
 		$.colorbox({href:"crystalbrawl.html"});
 	});
+	$('.nest').click(function(){
+		$.colorbox({href:"nest.html"});
+	});
+	$('.foiled').click(function(){
+		$.colorbox({href:"foiled.html"});
+	});
 
 	$('.mini-thumb-link').colorbox({rel:'group5', transition:'none'})
 });
