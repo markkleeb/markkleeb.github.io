@@ -21,5 +21,5 @@ $(document).ready(function(){
 		$.colorbox({href:"foiled.html"});
 	});
 
-	$('.mini-thumb-link').colorbox({rel:'group5', transition:'none'})
+	$('.mini-thumb-link').colorbox({rel:"group5", transition:"none"})
 });
