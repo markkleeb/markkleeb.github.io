@@ -21,5 +21,7 @@ $(document).ready(function(){
 		$.colorbox({href:"foiled.html"});
 	});
 
-	$('.mini-thumb-link').colorbox({rel:"group5", transition:"none"})
+	$('.gameOneGallery').colorbox({rel:"mygallery", maxWidth: 800, transition:"none"})
+	$('.gameTwoGallery').colorbox({rel:"mygalleryTwo", maxWidth: 800, transition:"none"})
+	// $('a.colorbox').colorbox({rel:"mygallery", transition:"none"})
 });

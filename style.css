@@ -188,6 +188,16 @@ h4 {
   margin-top: 27px;
   box-shadow: 2px 2px 2px #000;
 }
+.mini-thumb.powerboat {
+  margin-top: 27px;
+  margin-left: 20px;
+  height: 115px;
+  width: auto;
+}
+.mini-thumb.powerboat.second {
+  float: right;
+  margin-right: 25px;
+}
 .video-container {
   width: 641px;
   height: 355px;
