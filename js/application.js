@@ -9,16 +9,16 @@ $(document).ready(function(){
 	});
 	$.colorbox.settings.opacity = 0.8;
 	$('.field-1').click(function(){
-		$.colorbox({href:"field1.html"});
+		$.colorbox({href:"previous_games/field1.html"});
 	});
 	$('.crystal-brawl').click(function(){
-		$.colorbox({href:"crystalbrawl.html"});
+		$.colorbox({href:"previous_games/crystalbrawl.html"});
 	});
 	$('.nest').click(function(){
-		$.colorbox({href:"nest.html"});
+		$.colorbox({href:"previous_games/nest.html"});
 	});
 	$('.foiled').click(function(){
-		$.colorbox({href:"foiled.html"});
+		$.colorbox({href:"previous_games/foiled.html"});
 	});
 
 	$('.gameOneGallery').colorbox({rel:"mygallery", maxWidth: 800, transition:"none"})
