@@ -11,6 +11,10 @@ ul {
   font-family: 'Open Sans';
   font-weight: 400;
 }
+body {
+  background: url('/images/paintbg4.png') 0 0 repeat-x;
+  background-size: cover;
+}
 a {
   -webkit-transition: 0.2s all;
 }
@@ -264,6 +268,7 @@ img.little-thumbnail {
 .left-section ul,
 .right-section ul {
   margin-left: 19px;
+  background-color: inherit;
 }
 .left-section ul a,
 .right-section ul a {
@@ -288,6 +293,7 @@ img.little-thumbnail {
 }
 .press ul {
   list-style-type: none;
+  background-color: inherit;
 }
 .press ul a {
   text-decoration: none;
