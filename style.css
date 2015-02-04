@@ -261,6 +261,15 @@ img.little-thumbnail {
   padding: 0 20px;
   margin: 0;
 }
+.left-section ul,
+.right-section ul {
+  margin-left: 19px;
+}
+.left-section ul a,
+.right-section ul a {
+  text-decoration: none;
+  color: #FFED02;
+}
 .left-section a,
 .right-section a {
   color: inherit;
