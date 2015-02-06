@@ -14,12 +14,22 @@ ul {
 body {
   background: url('/images/paintbg4.png') 0 0 repeat-x;
   background-size: cover;
+  background-attachment: fixed;
 }
 a {
   -webkit-transition: 0.2s all;
 }
 a {
   text-decoration: none;
+}
+.item {
+  padding: 20px;
+  width: 255px;
+  width: 25%;
+  box-sizing: border-box;
+}
+.img-grid {
+  width: 100%;
 }
 header {
   position: fixed;
@@ -175,12 +185,31 @@ h4 {
 }
 .slide p {
   width: 28%;
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: top;
+  width: 26%;
   margin: 0;
   padding: 0;
   padding-top: 2px;
   padding-left: 20px;
-  display: inline-block;
-  font-size: 14px;
+  padding-right: 28px;
+}
+.slide p.teaser a {
+  text-decoration: none;
+}
+.slide p.teaser b {
+  cursor: pointer;
+  -webkit-transition: 0.2s all;
+}
+.slide p.teaser b *.no-style {
+  cursor: default;
+}
+.slide p.teaser b *.no-style:hover {
+  opacity: 1.0;
+}
+.slide p.teaser b:hover {
+  opacity: 0.7;
 }
 .slide p a {
   color: inherit;

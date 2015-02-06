@@ -41,6 +41,7 @@ body, html, ul{
 body{
 	background: url('/images/paintbg4.png') 0 0 repeat-x;
 	background-size: cover;
+	background-attachment: fixed;
 }
 a{
 	-webkit-transition: 0.2s all;
@@ -52,6 +53,17 @@ body{
 a{
 	text-decoration: none;
 
+}
+
+.item{
+	padding: 20px;
+width: 255px;
+width: 25%;
+box-sizing: border-box;
+}
+
+.img-grid{
+	width: 100%;
 }
 header{
 	position: fixed;
@@ -245,6 +257,35 @@ h4{
 		padding-left: 20px;
 		display:inline-block;
 		font-size: 14px;
+		vertical-align: top;
+
+		width: 26%;
+margin: 0;
+padding: 0;
+padding-top: 2px;
+padding-left: 20px;
+padding-right: 28px;
+
+ &.teaser{
+ 	a {
+ 		text-decoration: none;
+ 	}
+
+ 	b{ cursor: pointer;
+ 		-webkit-transition: 0.2s all;
+
+ 		*.no-style{
+ 			cursor: default;
+ 			&:hover{
+ 				opacity:1.0;
+ 			}
+ 		}
+
+ 		&:hover{
+ 			opacity: 0.7;
+ 		}
+ 	}
+ }
 
 		a{
 			color: inherit;
