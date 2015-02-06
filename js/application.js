@@ -21,6 +21,22 @@ $(document).ready(function(){
 		$.colorbox({href:"previous_games/foiled.html"});
 	});
 
+	$('.pb88').click(function(){
+		$.colorbox({href:"pb88.html"});
+	});
+
+	$('.particle-mace').click(function(){
+		$.colorbox({href:"particle-mace.html"});
+	});
+
+	$('.futbol-forever').click(function(){
+		$.colorbox({href:"futbol-forever.html"});
+	});
+
+	$('.ngccot').click(function(){
+		$.colorbox({href:"ngccot.html"});
+	});
+
 	$('.gameOneGallery').colorbox({rel:"mygallery", maxWidth: 800, transition:"none"})
 	$('.gameTwoGallery').colorbox({rel:"mygalleryTwo", maxWidth: 800, transition:"none"})
 	// $('a.colorbox').colorbox({rel:"mygallery", transition:"none"})
