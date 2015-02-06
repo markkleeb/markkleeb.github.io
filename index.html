@@ -2,13 +2,27 @@
  	<head>
   		<link rel="stylesheet" type="text/css" href="style.css" />
   		<link rel="stylesheet" href="colorbox.css" />
-  		<script src="http://code.jquery.com/jquery-latest.js"></script>
+  		  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
   		<script src="jquery.cycle2.min.js"></script>
   		<script src="jquery.colorbox-min.js"></script>
 
   		<title>Death By Audio: Arcade</title>
   		<link href='http://fonts.googleapis.com/css?family=Share+Tech' rel='stylesheet' type='text/css'>
   		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+  		  <script src = "js/isotope.pkgd.min.js"></script>
+         <script src = "js/imagesloaded.pkgd.min.js"></script>
+
+           <!-- Add fancyBox -->
+  <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.3"></script>
+
+  <!-- Optionally add helpers - button, thumbnail and/or media -->
+  <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+
+  <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
   	</head>
   	<body>
 
@@ -20,8 +34,9 @@
 		  		<ul>
 		  			<li><a href = "#about">About</a></li>
 		  			<li><a href = "#featuring">Now Featuring</a></li>
-		  			<li><a href = "#upcoming">Upcoming Games</a></li>
-		  			<li><a href = "#previous">Previous Games</a></li>
+		  			<li><a href = "#upcoming">Upcoming Games + Events</a></li>
+		  			<li><a href = "#previous">The Games</a></li>
+		  			<li><a href = "#gallery">Gallery</a></li>
 		  			<li><a href = "#press">Press + Links</a></li>
 		  		</ul>
 	  		</nav>
@@ -29,7 +44,7 @@
 	  	<div class = "main-content">
 		  	<div class = "section about" name = "about">
 		  		<h1>About</h1>
-		  		<p>The Death By Audio Arcade is a series of local multiplayer arcade cabinets produced by NYC-based indie game developers and exhibited at Death by Audio in Brooklyn. Currently, over 8 cabinets have been produced and have appeared at events such as the lwlvl and Maker Faire NYC.</p>
+		  		<p>The Death By Audio Arcade is a series of local multiplayer arcade cabinets produced by NYC-based indie game developers at the legendary music venue, Death by Audio, in Brooklyn, NY.</p>
 		  	</div>	
 		  	<div class = "section" name = "featuring">
 		  		<h1>Now Featuring...</h1>
@@ -40,13 +55,13 @@
 	    				data-cycle-youtube=true
 	    				data-cycle-slides="> div.slide"
 	    			>
-					    <div class = "slide">
+					  <!--   <div class = "slide">
 					        <h2><a href = "http://andymakes.com/particlemace/" target="blank">Particle Mace</a> ///</h2>
 					       
 					        	<p><a href = "http://andymakes.com/particlemace/">PARTICLE MACE</a> is an upcoming game for Windows/Mac/iOS by Andy Wallace about swinging particles into enemies in a hostile universe. 
 				PARTICLE MACE is a game about capturing the thrill of classic arcade games with a new, physics based mechanic. 
 				PARTICLE MACE is a game about trying not to die, but that's impossible.
-				<!-- <a rel = "mygallery" class = "mini-thumb-link gameOneGallery" href = "nestCastofChar.jpg"><img class = "mini-thumb" src = "nestCastOfChar.jpg"></a> -->
+				<a rel = "mygallery" class = "mini-thumb-link gameOneGallery" href = "nestCastofChar.jpg"><img class = "mini-thumb" src = "nestCastOfChar.jpg"></a>
 				<a class = "mini-thumb-link gameOneGallery" href = "pm1.png"><img class = "mini-thumb" src = "pm_sm.png"></a>
 				
 				<a href="pm2.png" class="gameOneGallery" rel="mygallery"></a>
@@ -57,42 +72,49 @@
 
 				</p>
 					        	 <a class='youtube' href="http://player.vimeo.com/video/96797616"><div class = "video-container pmvideo">
-					        	 	<!-- <img rel = "group5" src = "nestCastOfChar.jpg"> -->
+					        	 
 						   			<img class = "playButton" src = "PlayButton.png">
 					    		</div>
 					    	</a>
-					    </div>
+					    </div> -->
 					    <div class = "slide">
-					        <h2><a href = "http://powerboat.robysoft.net" target="blank">Powerboat Italia '88</a> ///</h2>
+					        <h2><a href = "https://www.facebook.com/events/732730926834489/?ref_dashboard_filter=upcoming" target="blank">DEATHMATCH BY AUDIO V!</a> ///</h2>
 					       
-					        	<p><a href = "http://powerboat.robysoft.net">POWERBOAT ITALIA '88</a> is frenetic speedboat racing game that combines old-school button mashing with precision maneuvering and timing. Up to 4 powerboaters storm their way toward the prospect of supreme victory and unending fame by boosting over hurdles, snagging powerups, and blocking the paths of their rivals. It's a true test of endurance... and a measure of just how far you'll go to win.<br><a class = "mini-thumb-link gameTwoGallery" href = "pb1.jpg"><img class = "mini-thumb powerboat" src = "pb1.jpg"></a><a class = "mini-thumb-link gameTwoGallery" href = "powerboatGif_new.gif"><img class = "mini-thumb second powerboat" src = "powerboatGif_sm.gif"></a>
-					        		<!-- <a href="powerboatGif_new.gif" class="gameTwoGallery" rel="mygalleryTwo"></a> -->
-									<!-- <a href="pb1.jpg" class="gameTwoGallery" rel="mygalleryTwo"></a> -->
-									<a href="pb2.jpg" class="gameTwoGallery" rel="mygalleryTwo"></a>
-									<a href="pb3.jpg" class="gameTwoGallery" rel="mygalleryTwo"></a>
-									<a href="pb4.jpg" class="gameTwoGallery" rel="mygalleryTwo"></a>
-									<a href="pb5.jpg" class="gameTwoGallery" rel="mygalleryTwo"></a>
-					        	</p>
-					        	 <a class='youtube' href="http://player.vimeo.com/video/94112945"><div class = "video-container pbvideo">
-						   			<img class = "playButton" src = "PlayButton.png">
-					    		</div>
+					        	<p class = "teaser">The Death By Audio Arcade returns in fine form at <a href = "http://www.wakawaka.co">WAKA WAKA</a> on February 25th! 
+					        	<br><br>
+					        	DBAA will be debuting a brand new cabinet for Jane Friedhoff's <b><a href = "http://slamcityoracles.com">SLAM CITY ORACLES</a></b> as well as featuring the return of DBA mainstays <b class = "crystal-brawl">CRYSTAL BRAWL</b>, <b class = "particle-mace">PARTICLE MACE</b>, <b class = "pb88">POWERBOAT ITALIA '88</b>, <b class = "futbol-forever">FUTBOL FOREVER</b>, <b class = "nest">NEST</b>, and <b class = "ngccot">NOTHING GOOD CAN COME OF THIS</b>.
+					        	<br><br>
+					        	<b class = "nostyle">$5 - DOORS AT 6PM<br>
+					        	TOURNAMENTS AND MUSIC AT 8PM</b></p>
+
+					        	 <a target = "_blank" href = "https://www.facebook.com/events/732730926834489/?ref_dashboard_filter=upcoming"><img src = "images/dbaav.jpg"></a>
 					    	</a>
 					    </div>					   
 					</div>
 				</div>
 		  	</div>	
 		  	<div class = "section" name="upcoming">
-		  		<h1>Upcoming Games</h1>
+		  		<h1>Upcoming Games + Events</h1>
 		  		<div class = "left-section">
-		  		<h3><a href = "http://pixelmetal.com" target="blank">Sombrero</a> ///</h3><p><a class = "vimeo little-thumb-link" href = "//www.youtube-nocookie.com/embed/7TLRYuJ0Xso"><img class = "playButton sm" src = "PlayButton.png"><img class = "little-thumbnail" src = "sombrero_thumb.jpg"></a><a href = "http://pixelmetal.com">SOMBRERO</a>  is a fast-paced, Spaghetti Western-themed 2D local multiplayer arena-based competitive deathmatch game &mdash; that's a mouthful, pardner.</p>
+		  		<h3><a href = "http://slamcityoracles.com/" target="blank">SLAM CITY ORACLES</a> ///</h3><p><a href = "https://vine.co/v/OWxIdPVQ1FO"><iframe style = "float: left;
+padding-right: 15px;" src="https://vine.co/v/OWxIdPVQ1FO/embed/simple" width="150" height="150" frameborder="0"></iframe></a><script src="https://platform.vine.co/static/scripts/embed.js"></script><a href = "http://slamcityoracles.com/">SLAM CITY ORACLES</a> is Jane Friedhoff's dance apocalypse simulator! Part Katamari, part Slave of God, and part Rampage, SCO is about dancing so hard you tear down a city in the process.</p>
 		  	</div><div class = "right-section">
-		  		<h3><a href = "http://playfutbolforever.com/" target = "blank">F&uacute;tbol Forever</a> ///</h3>
-		  		<p><a class = "youtube little-thumb-link" href = "http://player.vimeo.com/video/95109575" target = "blank"><img class = "playButton sm" src = "PlayButton.png"><img class = "little-thumbnail" src = "ff_thumb.png"></a>Long after the purge of Earth, humanity holds the pieces of its destroyed culture tightly. Now, on the brink of extinction with no home to return to, humanity must redefine itself. Though they need not start from scratch. They have a piece of Old Earth that could never be destroyed or taken away. They have the glory and the pride of the old world to help shape their future.</p>
-				<p>They have F&uacute;tbol.</p>
+		  		<h3>Events ///</h3>
+		  		<p>
+		  			<ul>
+		  				<li><b>2/25/15</b> - <a href = "https://www.eventbrite.com/e/deathmatch-by-audio-five-tickets-15562782702">Deathmatch by Audio V @ WAKA WAKA</a></li>
+		  				<li><strike><b>1/23/15 - 1/26/15</b> - <a href = "http://www.magfest.org">DBAA @ MAGFest</a></strike></li>
+		  				<li><strike><b>11/6/14 - 11/22/14</b> - <a href = "http://www.ripdba.com/">Death by Art @ DBA</a></strike></li> 
+		  				<li><strike><b>12/7/14</b> - <a href = "https://www.facebook.com/events/1719065978318415/?ref_dashboard_filter=past">Event @ Smithsonian American Art Museum</a></strike></li>
+		  				<li><strike><b>9/20/14 - 9/21/14</b> - <a href = "http://makerfaire.com/new-york-2014/">Maker Faire NYC 2014</a></strike></li>
+		  				<li><strike><b>8/22/14 - 8/23/14</b> - <a href = "http://lwlvl.com/2014/">lWlVl Festival 2014</a></strike></li>
+		  				<li><strike><b>5/13/14</b> - <a href = "https://www.facebook.com/events/518108054977920/?ref_dashboard_filter=past">Deathmatch by Audio III @ DBA</a></strike></li>
+		  			</ul>
+		  		</p>
 		  	
 		  	</div>	
 		  	<div class = "section" name="previous">
-		  		<h1>Previous Games</h1>
+		  		<h1>The Games</h1>
 		  		<div class = "game field-1">	
 		  			<img src="f1-sm.gif" width="75">
 		  			<h4>Field-1</h4>
@@ -109,11 +131,133 @@
 		  			<img src="arcadeWhite_new_sm.gif" width="75">
 		  			<h4>Foiled!</h4>
 		  		</div>
+		  		<div class = "game particle-mace">	
+		  			<img src="particleMaceGif_sm.gif" width="75">
+		  			<h4>Particle Mace</h4>
+		  		</div>
+		  		<div class = "game pb88">	
+		  			<img src="powerboatGif_sm.gif" width="75">
+		  			<h4 style = "font-size: 12px;">Powerboat Italia '88</h4>
+		  		</div>
+		  		<div class = "game futbol-forever">	
+		  			<img src="futbolforever.gif" width="75">
+		  			<h4>F&uacute;tbol Forever</h4>
+		  		</div>
+		  		<div class = "game ngccot">	
+		  			<img src="arcadeWhite_new_sm.gif" width="75">
+		  			<h4 style = "font-size:10px;">Nothing Good Can Come Of This</h4>
+		  		</div>
+		  	
 		  	
 
 		  		<div class = "expandable-section">
 
 		  		</div>	
+		  	</div>
+		  	<div class = "section gallery" name="gallery">
+		  		<h1>Gallery</h1>
+		  		<div class = "row image-gallery">
+
+
+ 
+                            <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "http://powerboat.robysoft.net/images/powerboat-8.jpg"><img class = "img-grid" src = "http://powerboat.robysoft.net/images/thumbs/powerboat-8.jpg"></a>
+                            </div>
+                              <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/cb4.jpg"><img class = "img-grid" src = "images/gallery/cb4thumb.jpg"></a>
+                            </div>
+                             <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/pm3.jpg"><img class = "img-grid" src = "images/gallery/pm3thumb.jpg"></a>
+                            </div>
+                              <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/ff2.jpg"><img class = "img-grid" src = "images/gallery/ff2thumb.jpg"></a>
+                            </div>
+                            <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/group1.jpg"><img class = "img-grid" src = "images/gallery/group1thumb.jpg"></a>
+                            </div>
+                                 <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/nest1.jpg"><img class = "img-grid" src = "images/gallery/nest1thumb.jpg"></a>
+                            </div>
+                              
+                                 <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/cb3.jpg"><img class = "img-grid" src = "images/gallery/cb3thumb.jpg"></a>
+                            </div>
+
+
+                            <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "http://powerboat.robysoft.net/images/pb88-2.jpg"><img class = "img-grid" src = "http://powerboat.robysoft.net/images/thumbs/pb88-2.jpg"></a>
+                            </div>
+                          <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/group3.jpg"><img class = "img-grid" src = "images/gallery/group3thumb.jpg"></a>
+                            </div>
+                      
+                              <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "http://powerboat.robysoft.net/images/pb88-5.jpg"><img class = "img-grid" src = "http://powerboat.robysoft.net/images/thumbs/pb88-5.jpg"></a>
+                            </div>
+                                  <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/nest2.jpg"><img class = "img-grid" src = "images/gallery/nest2thumb.jpg"></a>
+                            </div>
+                             <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/group2.jpg"><img class = "img-grid" src = "images/gallery/group2thumb.jpg"></a>
+                            </div>
+                          
+                           
+                               <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "http://powerboat.robysoft.net/images/pb88-4.jpg"><img class = "img-grid" src = "http://powerboat.robysoft.net/images/thumbs/pb88-4.jpg"></a>
+                            </div>
+                              <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/ngccot1.jpg"><img class = "img-grid" src = "images/gallery/ngccot1thumb.jpg"></a>
+                         
+                        </div>
+                            <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "http://powerboat.robysoft.net/images/powerboatn.jpg"><img class = "img-grid" src = "http://powerboat.robysoft.net/images/thumbs/powerboatn.jpg"></a>
+                            </div>
+                            <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/ff1.jpg"><img class = "img-grid" src = "images/gallery/ff1thumb.jpg"></a>
+                            </div>
+                         <!--    <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "http://powerboat.robysoft.net/images/pb88d.jpg"><img class = "img-grid" src = "http://powerboat.robysoft.net/images/thumbs/pb88d.jpg"></a>
+                            </div>
+                            -->
+                         
+                            <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "http://powerboat.robysoft.net/images/powerboat-12.jpg"><img class = "img-grid" src = "http://powerboat.robysoft.net/images/thumbs/powerboat-12.jpg"></a>
+                            </div>
+                            <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "http://powerboat.robysoft.net/images/pb88-3.jpg"><img class = "img-grid" src = "http://powerboat.robysoft.net/images/thumbs/pb88-3.jpg"></a>
+                            </div>
+                            
+
+                          <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/pm2.jpg"><img class = "img-grid" src = "images/gallery/pm2thumb.jpg"></a>
+                            </div>
+                         
+                           
+                       
+
+                          <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/ngccot2.jpg"><img class = "img-grid" src = "images/gallery/ngccot2thumb.jpg"></a>
+                            </div>
+                     
+                          <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "http://powerboat.robysoft.net/images/powerboat-6.jpg"><img class = "img-grid" src = "http://powerboat.robysoft.net/images/thumbs/powerboat-6.jpg"></a>
+                            </div>
+                              <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/f2.jpg"><img class = "img-grid" src = "images/gallery/f2thumb.jpg"></a>
+                            </div>
+                                  <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/group4.jpg"><img class = "img-grid" src = "images/gallery/group4thumb.jpg"></a>
+                            </div>
+
+                            <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/cb6.jpg"><img class = "img-grid" src = "images/gallery/cb6thumb.jpg"></a>
+                            </div>
+
+                            <div class = "item">
+                                <a class = "fancybox" border=0 rel="group" href = "images/gallery/f3.jpg"><img class = "img-grid" src = "images/gallery/f3thumb.jpg"></a>
+                            </div>
+                        </div>
+
 		  	</div>
 		  	<div class = "section press" name="press">
 		  		<h1>Press + Links</h1>
@@ -130,5 +274,20 @@
 	  		Arcade curated by <a href = "http://www.kleebtronics.com/" target="blank">Mark Kleback</a>   |   Website by <a href = "http://www.robysoft.net" target="blank">Robysoft</a>
 	  	</footer>
 	  	<script src="application.js"></script>
+	  	<script>
+	  	var $container = $('.image-gallery').imagesLoaded( function() {
+
+$container.isotope({
+  itemSelector: '.item',
+  layoutMode: 'masonry'
+
+})
+
+});
+
+	  	$(document).ready(function() {
+  $(".fancybox").fancybox();
+});
+	  	</script>
   	</body>
 </html>
