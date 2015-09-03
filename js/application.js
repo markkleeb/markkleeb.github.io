@@ -36,6 +36,10 @@ $(document).ready(function(){
 	$('.ngccot').click(function(){
 		$.colorbox({href:"ngccot.html"});
 	});
+	
+	$('.sco').click(function(){
+		$.colorbox({href:"previous_games/sco.html"});
+	});
 
 	$('.gameOneGallery').colorbox({rel:"mygallery", maxWidth: 800, transition:"none"})
 	$('.gameTwoGallery').colorbox({rel:"mygalleryTwo", maxWidth: 800, transition:"none"})
