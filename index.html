@@ -65,6 +65,8 @@ content="http://powerboat.robysoft.net/images/pb88-3.jpg" />
 	    				data-cycle-timeout="5000"
 	    				data-cycle-youtube=true
 	    				data-cycle-slides="> div.slide"
+	    				data-cycle-pager=".slider-pager"
+	    				data-cycle-pager-template="<span></span>"
 	    			>
 					 
 					    <div class = "slide">
@@ -81,8 +83,9 @@ content="http://powerboat.robysoft.net/images/pb88-3.jpg" />
 
 					    	
 					    	</a>
-					    </div>					   
+					    </div>
 					</div>
+					<div class="slider-pager"></div>
 				</div>
 		  	</div>	
 		  	<div class = "section" name="upcoming">
@@ -293,7 +296,13 @@ $container.isotope({
 
 	  	$(document).ready(function() {
   $(".fancybox").fancybox();
+  $(".slider-pager span").click(function(){
+  	$(".cycle-slideshow").cycle("pause");
+  })
+  
 });
+
+
 	  	</script>
 
   	</body>
