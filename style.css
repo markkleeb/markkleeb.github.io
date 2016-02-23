@@ -149,6 +149,12 @@ h4 {
 .section.about p {
   color: #e6e6e6;
 }
+#games-section {
+  text-align: center;
+}
+#games-section h1 {
+  text-align: left;
+}
 .cycle-slideshow,
 .slide,
 .slide-container {
