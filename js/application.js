@@ -41,6 +41,10 @@ $(document).ready(function(){
 		$.colorbox({href:"previous_games/sco.html"});
 	});
 
+	$('.starversus').click(function(){
+		$.colorbox({href:"previous_games/starversus.html"});
+	});
+
 	$('.gameOneGallery').colorbox({rel:"mygallery", maxWidth: 800, transition:"none"})
 	$('.gameTwoGallery').colorbox({rel:"mygalleryTwo", maxWidth: 800, transition:"none"})
 	// $('a.colorbox').colorbox({rel:"mygallery", transition:"none"})
