@@ -382,3 +382,14 @@ footer a {
 footer a:hover {
   opacity: 0.7;
 }
+
+#socs {
+  padding-left: 88%;
+  margin-top: -1.85%;
+  } img {
+    width:25px;
+}
+
+#socs li {
+  padding: 0px 4px;
+}
