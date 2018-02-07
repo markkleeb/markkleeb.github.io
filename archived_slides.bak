@@ -1,5 +1,14 @@
 // archived 'slides'
-
+	<div class = "slide">
+					        <h2><a href = "https://giphy.com/channel/dbaa_photobooth" target="blank">DBAA PHOTOBOOTH</a> ///</h2>
+					          <a target = "_blank" href = "https://giphy.com/channel/dbaa_photobooth"><img style = "width: 380px; margin-top: 11px; margin-left: 21px;" src = "https://media.giphy.com/media/d3fR5JwvuDiqDAY0/giphy.gif"></a>
+					        	<p class = "teaser" style = "width: 53%; font-size: 16px;">
+					        	The brand new animated gif photobooth launched this weekend at <a href="http://play-nyc.com/">Play NYC</a> at Terminal 5! 
+					        	<br><br>
+					        	If you visited our booth, check out this <a href="https://giphy.com/channel/dbaa_photobooth">Giphy Gallery</a> to view and download your gifs from the weekend!
+					        </p>
+					    	</a>
+					    </div>
 		 <div class = "slide">
 					        <h2><a href = "http://www.volleygon.com/" target="blank">RISE OF VOLLEYGON!</a> ///</h2>
 					          <a target = "_blank" href = "http://www.volleygon.com/"><img style = "margin-top: 11px; margin-left: 21px; width: 438px; vertical-align:top;" src = "http://www.volleygon.com/vg2.jpg"></a>
