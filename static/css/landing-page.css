@@ -1,0 +1,468 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: top;
+    background: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*, :after, :before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family:"Times New Roman", cursive, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/glitterbackground.gif) center center;
+   
+    background-size: cover;
+}
+
+.intro-header1 {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+     /* background: url(https://media.giphy.com/media/K0k6Oxh8whEFW/giphy.gif) no-repeat center center;
+   background: url(../img/banner-bg2.png) no-repeat center center;*/
+   /* background: url(https://media.giphy.com/media/LVBH3rg1BUROw/giphy.gif) no-repeat center center; */
+   background: url(https://media.giphy.com/media/1cbm04aWsaZuo/giphy.gif) no-repeat center center;
+   
+    background-size: cover;
+}
+
+
+
+.intro-header_gifts {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+     /* background: url(https://media.giphy.com/media/K0k6Oxh8whEFW/giphy.gif) no-repeat center center;
+   background: url(../img/banner-bg2.png) no-repeat center center;*/
+   /* background: url(https://media.giphy.com/media/LVBH3rg1BUROw/giphy.gif) no-repeat center center; */
+   background: url(../img/ocean1.jpg) center center;
+   
+    background-repeat: repeat-x repeat-y;
+}
+
+.intro-header_faq {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+     /* background: url(https://media.giphy.com/media/K0k6Oxh8whEFW/giphy.gif) no-repeat center center;
+   background: url(../img/banner-bg2.png) no-repeat center center;*/
+   /* background: url(https://media.giphy.com/media/LVBH3rg1BUROw/giphy.gif) no-repeat center center; */
+   background: url(../img/clouds.jpg) center center;
+   
+    background-repeat: repeat-x repeat-y;
+}
+
+
+.intro-header4 {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+     /* background: url(https://media.giphy.com/media/K0k6Oxh8whEFW/giphy.gif) no-repeat center center;
+   background: url(../img/banner-bg2.png) no-repeat center center;*/
+   /* background: url(https://media.giphy.com/media/LVBH3rg1BUROw/giphy.gif) no-repeat center center; */
+   background: url(../img/red-background.png) center center;
+   
+    background-size: cover;
+}
+
+
+.intro-header_venue {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+     background: url(../img/copper.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.description4 {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+     /* background: url(https://media.giphy.com/media/K0k6Oxh8whEFW/giphy.gif) no-repeat center center;
+   background: url(../img/banner-bg2.png) no-repeat center center;*/
+   /* background: url(https://media.giphy.com/media/LVBH3rg1BUROw/giphy.gif) no-repeat center center; */
+   background: url(../img/stars1.gif) center center;
+   background-repeat: repeat-y repeat-x;
+    
+}
+
+p {
+    width:50%;
+    display:inline-block;
+    margin: 10px auto;
+}
+
+.comrade{
+    width:80%;
+    margin: 20px auto;
+}
+
+.inline-image{
+
+    margin:0px;
+}
+
+h2{
+    font-size: 2em;
+    color: aqua;
+    font-family:'Dancing Script', cursive;
+
+}
+
+.faq{
+    font-size: 1.5em;
+    color: #FF00FF;
+    margin: 10px;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.name{
+
+    width: 50%;
+    margin: 10px auto;
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.container2{
+
+    width: auto;
+    
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-retro {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.retro{
+    font-family: "Comic Sans MS", cursive, sans-serif;;
+
+}
+
+.imgretro{
+    padding:0px;
+}
+
+.grey-border{
+
+border-color: #cbcbcb #4e474e #4e474e #cbcbcb;
+border-style: solid;
+border-width: 5px;
+margin: 10px auto 10px auto;
+padding: 0px;
+
+}
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.section-nav {
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.char-nav {
+    position: relative;
+    width: 30%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.char-nav2 {
+    position: relative;
+    width: 75%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+
+.slideshow{
+
+margin:0px auto;
+width: 100%;
+height: auto;
+}
+.section-nav-btn {
+    width: 200px;
+    background: url(/static/img/button-background.png) 0 0/100% auto no-repeat;
+    position: relative;
+    outline: 2px solid #1200f4;
+}
+
+.section-nav-btn .label {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+.section-nav-btn:before {
+    display: block;
+    position: relative;
+    content: "";
+    width: 100%;
+    padding-top: 21.55172%;
+}
+
+.section-nav-btn .label:hover{
+
+    color:#FF0000;
+
+}
+
+
+a .label {
+    text-decoration: underline;
+    color: #0000FF;
+}
+
+.banner{
+    padding: 100px 0;
+    color: #f8f8f8;
+    background-color: #101010;  
+    text-align: center;
+    background-size: cover;
+}
+
+.banner2 {
+    padding: 100px 0;
+    color: #f8f8f8;
+   background: url(../img/IMG_34201.jpg) no-repeat center center; 
+   /*
+   background: url(https://media.giphy.com/media/1cbm04aWsaZuo/giphy.gif) no-repeat center center; 
+   */
+   background-size: cover;
+}
+
+.banner3 {
+    padding: 100px 0;
+    color: #f8f8f8;
+   /* background: url(../img/banner-bg2.png) no-repeat center center; 
+   background: url(https://media.giphy.com/media/K0k6Oxh8whEFW/giphy.gif) no-repeat center center; */
+   background: url(../img/IMG_3390.png) no-repeat center center;
+   
+    background-size: cover;
+}
+
+
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.large{
+font-size: 1.5em;
+text-decoration: none;
+font-family: "Helvetica";
+}
+
+
+.story{
+
+    float: left;
+    display:block;
+}
+
+.stories{
+    width:;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    color: #000000f;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+.iframewrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.iframewrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.rotate90 {
+-webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
